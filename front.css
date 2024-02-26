@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+:root{
+    --winning-blocks:rgb(30, 9, 9);
+  --orange:orange;
+}
+body{
+    color: orange;
+    font-family: "Mochiy Pop One", sans-serif;
+}
+h1{
+    font-size: 54px;
+    text-transform: uppercase;
+}
+.container{
+    padding: 40px;
+    justify-content: center;
+  
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  background-color: rgb(0, 0, 0);
+
+}
+#board{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+}
+.box{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 111, 7);
+    font-size: 120px;
+    border-right: 3px solid;
+border-bottom: 3px solid;    
+}
+.box:nth-child(3n){
+    border-right: none;
+}
+.box:nth-child(6n) ~ .box{
+    border-bottom: none;
+}
+#btn{
+    background: rgb(247, 162, 5);
+    padding: 10px 20px;
+    border: 2px solid hotpink ;
+font-size: 18px;
+color: aliceblue;
+cursor: pointer;
+font-weight: 600;
+transition: 200ms transform ;
+border-radius: 15px;
+}
+#btn:hover{
+   background-color: rgb(243, 93, 0);
+   transition: 0.5s;
+   
+}
+
