@@ -8,7 +8,7 @@
   }
 
 :root{
-    --winning-blocks:rgb(30, 9, 9);
+    --winning-blocks:rgb(144, 113, 141);
   --orange:orange;
 }
 body{
@@ -43,7 +43,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(255, 111, 7);
+    color: rgb(255, 102, 7);
     font-size: 120px;
     border-right: 3px solid;
 border-bottom: 3px solid;    
@@ -55,9 +55,9 @@ border-bottom: 3px solid;
     border-bottom: none;
 }
 #btn{
-    background: rgb(247, 162, 5);
+    background: rgb(247, 158, 5);
     padding: 10px 20px;
-    border: 2px solid hotpink ;
+    border: 2px solid rgb(250, 6, 6) ;
 font-size: 18px;
 color: aliceblue;
 cursor: pointer;
